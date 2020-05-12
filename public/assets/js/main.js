@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // широту и долготу записываем в свои места на странице
                 lat_span.textContent = data.latitude;
                 lon_span.textContent = data.longitude;
+                console.log('resieve data from server: ', data);
             })
             .catch(err => console.error(err));
     }

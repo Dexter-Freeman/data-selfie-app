@@ -2,6 +2,10 @@
   "name": "data-selfie-app",
   "version": "0.0.1",
   "description": "Training project, node.js, express server",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Dexter-Freeman/data-selfie-app.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +17,7 @@
   "author": "Dexter Freeman <vse.pisma.tut@gmail.com> (https://github.com/Dexter-Freeman)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
   }
 }
